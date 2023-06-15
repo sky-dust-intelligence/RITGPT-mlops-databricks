@@ -65,28 +65,25 @@ The net effect is a disproportionate amount of the Data Scientist/Engineers time
  ```ps
 az login
 
-# If There Are Multiple Tenants In Your Subscription, Ensure You Specify The Correct Tenant "az login --tenant"
+# If There Are Multiple Tenants In Your Subscription, Ensure You Specify The Correct Tenant "az login --
 
-# ** Microsoft Employees Use: az login --tenant fdpo.onmicrosoft.com (New Non Prod Tenant )
-
-```
 
 ## GitHub Account
-```ps
-echo "Enter Your Git Username... "
-# Example: "Ciaran28"
+```
+echo "git user.name "
+# Example: "azureuser@skydustemployee"
 $Git_Configuration = "GitHub_Username"
 ```
 
 ## GitHub Repos Within Databricks
-  ```ps
+!bash
 echo "Enter Your Git Repo Url (this could be any Repository In Your Account )... "
 # Example: "https://github.com/ciaran28/dstoolkit-mlops-databricks" 
 $Repo_ConfigurationURL = ""
 ```
 
 ## Updates Parameter Files & Git Push To Remote
-  ```ps
+  ```
 echo "From root execute... "
 
 ./setup.ps1

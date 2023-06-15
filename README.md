@@ -25,19 +25,13 @@ The net effect is a disproportionate amount of the Data Scientist/Engineers time
 ---
 
 ## Prerequisites
-<details open>
-<summary>Click Dropdown... </summary>
-<br>
-  
-- Github Account
-- Microsoft Azure Subscription
-- VS Code
+
+** Work from the linux virtual desktop on Azure. The policy will not allow push from other locations.
+
+- ssh Github Account/sky-dust-intelligenc
+- VS Code ** devcontainer in vscode browser ** Notebooks via noteable.io (is connected to AzureML**
 - Azure CLI Installed (This Accelerator is tested on version 2.39)
 
-</details>
-
----
----
 
 ## Details of The Solution Accelerator
 

@@ -1,41 +1,15 @@
 ![Banner](docs/images/MLOps_for_databricks_Solution_Acclerator_logo.JPG)
 
----
----
- <br>
 
 
- # Version History And Updates 
-
-## Azure ML Integration Now Live For GitHub Deployment.
-Development for Azure DevOps Deployment in Progress (expect instability until end of April)
-
- # MLOps for Databricks with CI/CD (GitHub Actions)
----
  
  ## MLOps Architecture
 
 ![image](https://user-images.githubusercontent.com/108273509/207945308-14e4794e-e86b-4bee-aa21-088698983703.png)
 
-Features to be included in future releases:
-- Model testing & promotion 
-- Metrics & Monitoring 
----
 
 
-## Youtube Demo - Slightly Outdated
-
-The deployment instructions for the video are slightly outdated (albeit still usefull). 
-Please follow instructions below instead. The video still provides useful content for concepts outwith the deployment. 
-
-[![Youtube Demo](docs/images/YoutubeThumbNail.png)](https://youtu.be/g57N3GYXuDI)
-
----
-
-## About This Repository
-
-This Repository contains an Azure Databricks Continuous Deployment _and_ Continuous Development Framework for delivering Data Engineering/Machine Learning projects based on the below Azure Technologies:
-
+-
 
 
 | Azure Databricks | Azure Log Analytics | Azure Monitor Service  | Azure Key Vault        |
@@ -84,10 +58,6 @@ The net effect is a disproportionate amount of the Data Scientist/Engineers time
 # Deployment Instructions 
 
 ## Create Repository
-<details open>
-<summary>Click Dropdown... </summary>
-<br>
-  
 - Fork this repository [here](https://github.com/microsoft/dstoolkit-mlops-databricks/fork) 
 - In your Forked Repo, click on 'Actions' and then 'Enable'
 - Within your VS Code click, "View", then "Command Pallette", "Git: Clone", and finally select your Repo

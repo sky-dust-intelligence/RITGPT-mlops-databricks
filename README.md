@@ -66,7 +66,7 @@ The net effect is a disproportionate amount of the Data Scientist/Engineers time
 ---
  
 ## Login To Azure
-- All Code Throughout To Go Into VS Code **PowerShell Terminal** 
+- All Code Throughout To Go Into VS Code **Bash / Ubuntu**
 
  ```ps
 az login

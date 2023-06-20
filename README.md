@@ -77,7 +77,7 @@ $Git_Configuration = "GitHub_Username"
 
 ## GitHub Repos Within Databricks
 !bash
-echo "Enter Your Git Repo Url (this could be any Repository In Your Account )... "
+echo "
 # Example: "https://github.com/ciaran28/dstoolkit-mlops-databricks" 
 $Repo_ConfigurationURL = ""
 ```
